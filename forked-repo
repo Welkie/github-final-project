@@ -1,0 +1,5 @@
+$ curl -s https://api.github.com/repos/Welkie/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"|"parent"' | head -4
+  "full_name": "Welkie/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",

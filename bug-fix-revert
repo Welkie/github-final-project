@@ -1,0 +1,13 @@
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12393 | grep -E '"html_url"|"state"|"title"|"label"|"full_name"' | head -12
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/12393",
+  "state": "closed",
+  "title": "Update disclaimer comment in simple-interest.sh",
+    "html_url": "https://github.com/Welkie",
+    "label": "Welkie:bug-fix-revert",
+      "full_name": "Welkie/mcino-Introduction-to-Git-and-GitHub",
+        "html_url": "https://github.com/Welkie",
+      "html_url": "https://github.com/Welkie/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/Welkie",
+    "label": "ibm-developer-skills-network:main",
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+        "html_url": "https://github.com/ibm-developer-skills-network",

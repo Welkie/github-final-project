@@ -1,0 +1,12 @@
+$ git branch -a
+* bug-fix-revert
+  bug-fix-typo
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+$ git branch -vv
+* bug-fix-revert bafe971 Update disclaimer comment in simple-interest.sh
+  bug-fix-typo   09a0b4e Fix typo in simple-interest.sh header
+  main           09a0b4e [origin/main] Fix typo in simple-interest.sh header
