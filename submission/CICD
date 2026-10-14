@@ -1,0 +1,27 @@
+Lint Code
+Triggered via push by Welkie    Status: Success    Total duration: 52s
+
+Jobs
+  lint_python    Success
+  lint_js        Success
+
+lint_python
+  Set up job
+  Run actions/checkout@v4
+  Run actions/setup-python@v5
+  Run pip install flake8
+  Run flake8 server/ --count --show-source --statistics
+  0
+  Post Run actions/checkout@v4
+  Complete job
+
+lint_js
+  Set up job
+  Run actions/checkout@v4
+  Run actions/setup-node@v4
+  Run npm install jshint --global
+  Run jshint server/database/*.js
+  Post Run actions/checkout@v4
+  Complete job
+
+All jobs have succeeded

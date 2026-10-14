@@ -1,0 +1,2 @@
+$ curl http://localhost:3030/fetchDealer/15
+[{"id":15,"city":"Topeka","state":"Kansas","st":"KS","address":"12 Prairie Road","zip":"66603","lat":39.0473,"long":-95.6752,"short_name":"Sunflower","full_name":"Sunflower Motors"}]

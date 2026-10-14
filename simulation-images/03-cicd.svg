@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Segoe UI, Arial, sans-serif"><rect width="900" height="520" fill="#f4f9ff"/>
+<text x="450" y="50" font-size="30" font-weight="bold" text-anchor="middle" fill="#1b4b8f">🏭 CI/CD = Băng chuyền kiểm tra tự động</text>
+<text x="450" y="82" font-size="18" text-anchor="middle" fill="#456">GitHub Actions: bạn đẩy code lên, robot tự kiểm tra từng bước.</text>
+<rect x="40" y="250" width="820" height="26" rx="13" fill="#555"/>
+<g font-size="15" text-anchor="middle">
+<rect x="50" y="150" width="140" height="95" rx="12" fill="#e8e8ff" stroke="#6c63ff" stroke-width="3"/><text x="120" y="190" font-size="32">⬆️</text><text x="120" y="222" font-weight="bold">1. git push</text>
+<rect x="215" y="150" width="140" height="95" rx="12" fill="#fff8d6" stroke="#e0b400" stroke-width="3"/><text x="285" y="190" font-size="32">🧹</text><text x="285" y="222" font-weight="bold">2. Lint</text>
+<rect x="380" y="150" width="140" height="95" rx="12" fill="#fff8d6" stroke="#e0b400" stroke-width="3"/><text x="450" y="190" font-size="32">🧪</text><text x="450" y="222" font-weight="bold">3. Test</text>
+<rect x="545" y="150" width="140" height="95" rx="12" fill="#fff8d6" stroke="#e0b400" stroke-width="3"/><text x="615" y="190" font-size="32">📦</text><text x="615" y="222" font-weight="bold">4. Build Docker</text>
+<rect x="710" y="150" width="140" height="95" rx="12" fill="#d8f5dc" stroke="#27ae60" stroke-width="3"/><text x="780" y="190" font-size="32">🚀</text><text x="780" y="222" font-weight="bold">5. Deploy</text>
+</g>
+<g font-size="34" text-anchor="middle"><text x="285" y="330">✅</text><text x="450" y="330">✅</text><text x="615" y="330">✅</text><text x="780" y="330">✅</text></g>
+<text x="450" y="375" font-size="18" text-anchor="middle" fill="#27ae60" font-weight="bold">Tất cả dấu ✅ xanh = thành công!</text>
+<rect x="40" y="395" width="400" height="95" rx="12" fill="#ffe9e9" stroke="#e05252"/>
+<text x="240" y="428" font-size="17" font-weight="bold" text-anchor="middle">❌ Nếu một bước bị đỏ</text>
+<text x="240" y="455" font-size="15" text-anchor="middle">Băng chuyền dừng, báo lỗi.</text>
+<text x="240" y="477" font-size="15" text-anchor="middle">Sửa xong, đẩy lại là chạy tiếp.</text>
+<rect x="460" y="395" width="400" height="95" rx="12" fill="#fff" stroke="#9bb"/>
+<text x="660" y="428" font-size="17" font-weight="bold" text-anchor="middle">📁 File trong repo</text>
+<text x="660" y="458" font-size="15" text-anchor="middle">.github/workflows/*.yml</text>
+<text x="660" y="480" font-size="13" text-anchor="middle" fill="#666">(công thức của băng chuyền)</text>
+</svg>

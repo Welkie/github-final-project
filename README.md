@@ -1,6 +1,13 @@
-# Simple Interest Calculator
+# Cars Dealership – Full-Stack Capstone Project
 
-A simple interest calculator written as a Bash script. It asks for the **principal**, the **rate of interest** and the **time period**, then computes the simple interest.
+- **Repository name:** `github-final-project`
+- **Project name:** Cars Dealership (Full-Stack Development Capstone)
+
+A responsive web application for a national U.S. car retailer: users can browse dealership branches, filter them by state, and read and submit reviews. Tech stack: React, Django, Flask, Node.js/Express, MongoDB, SQLite, Docker, Kubernetes and IBM Cloud Code Engine, with CI/CD through GitHub Actions.
+
+## Simple Interest Calculator
+
+This repository also contains `simple-interest.sh`, a simple interest calculator written as a Bash script. It asks for the **principal**, the **rate of interest** and the **time period**, then computes the simple interest.
 
 ## Formula
 

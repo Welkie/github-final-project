@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Segoe UI, Arial, sans-serif"><rect width="900" height="520" fill="#f4f9ff"/>
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto"><path d="M0 0L16 8L0 16z" fill="#1b4b8f"/></marker></defs>
+<text x="450" y="50" font-size="30" font-weight="bold" text-anchor="middle" fill="#1b4b8f">🐳 Docker = Hộp đồ chơi thần kỳ</text>
+<text x="450" y="82" font-size="18" text-anchor="middle" fill="#456">Đóng gói app vào hộp, mang đi đâu cũng chạy giống nhau!</text>
+<rect x="40" y="130" width="200" height="230" rx="16" fill="#fff8d6" stroke="#e0b400" stroke-width="3"/>
+<text x="140" y="165" font-size="20" font-weight="bold" text-anchor="middle">📜 Dockerfile</text>
+<text x="140" y="200" font-size="16" text-anchor="middle">Công thức làm hộp:</text>
+<text x="140" y="235" font-size="15" text-anchor="middle">1. Lấy hộp trống</text>
+<text x="140" y="262" font-size="15" text-anchor="middle">2. Bỏ code vào</text>
+<text x="140" y="289" font-size="15" text-anchor="middle">3. Cài đồ cần dùng</text>
+<text x="140" y="316" font-size="15" text-anchor="middle">4. Dán nhãn "Chạy!"</text>
+<text x="140" y="345" font-size="13" text-anchor="middle" fill="#666">docker build</text>
+<path d="M245 245 H305" stroke="#1b4b8f" stroke-width="5" marker-end="url(#a)"/>
+<rect x="320" y="150" width="200" height="190" rx="16" fill="#d9ecff" stroke="#2f80ed" stroke-width="3"/>
+<text x="420" y="200" font-size="56" text-anchor="middle">📦</text>
+<text x="420" y="240" font-size="20" font-weight="bold" text-anchor="middle">Image</text>
+<text x="420" y="267" font-size="15" text-anchor="middle">Hộp đã đóng sẵn</text>
+<text x="420" y="290" font-size="15" text-anchor="middle">(chưa mở)</text>
+<text x="420" y="325" font-size="13" text-anchor="middle" fill="#666">docker push → kho chung</text>
+<path d="M525 245 H585" stroke="#1b4b8f" stroke-width="5" marker-end="url(#a)"/>
+<text x="555" y="222" font-size="13" text-anchor="middle" fill="#666">docker run</text>
+<rect x="600" y="120" width="130" height="110" rx="14" fill="#d8f5dc" stroke="#27ae60" stroke-width="3"/><text x="665" y="165" font-size="40" text-anchor="middle">🚗</text><text x="665" y="195" font-size="15" font-weight="bold" text-anchor="middle">Container 1</text><text x="665" y="215" font-size="13" text-anchor="middle">Web (Django)</text>
+<rect x="745" y="120" width="130" height="110" rx="14" fill="#d8f5dc" stroke="#27ae60" stroke-width="3"/><text x="810" y="165" font-size="40" text-anchor="middle">🗄️</text><text x="810" y="195" font-size="15" font-weight="bold" text-anchor="middle">Container 2</text><text x="810" y="215" font-size="13" text-anchor="middle">Dữ liệu</text>
+<rect x="600" y="250" width="130" height="110" rx="14" fill="#d8f5dc" stroke="#27ae60" stroke-width="3"/><text x="665" y="295" font-size="40" text-anchor="middle">💬</text><text x="665" y="325" font-size="15" font-weight="bold" text-anchor="middle">Container 3</text><text x="665" y="345" font-size="13" text-anchor="middle">Đánh giá</text>
+<rect x="745" y="250" width="130" height="110" rx="14" fill="#d8f5dc" stroke="#27ae60" stroke-width="3"/><text x="810" y="295" font-size="40" text-anchor="middle">🤖</text><text x="810" y="325" font-size="15" font-weight="bold" text-anchor="middle">Container 4</text><text x="810" y="345" font-size="13" text-anchor="middle">Cảm xúc</text>
+<text x="737" y="395" font-size="16" text-anchor="middle" fill="#27ae60" font-weight="bold">Hộp mở ra = Container đang chạy!</text>
+<rect x="40" y="420" width="820" height="70" rx="14" fill="#fff" stroke="#9bb"/>
+<text x="450" y="450" font-size="18" text-anchor="middle">🧒 Giống LEGO: đóng hộp một lần, ở nhà bạn hay ở lớp mở ra đều ra y hệt.</text>
+<text x="450" y="476" font-size="15" text-anchor="middle" fill="#666">Ví dụ lệnh: docker build -t dealership . &amp;&amp; docker run -p 8000:8000 dealership</text>
+</svg>

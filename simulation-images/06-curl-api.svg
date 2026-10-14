@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Segoe UI, Arial, sans-serif"><rect width="900" height="520" fill="#f4f9ff"/>
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto"><path d="M0 0L16 8L0 16z" fill="#1b4b8f"/></marker><marker id="b" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto"><path d="M0 0L16 8L0 16z" fill="#27ae60"/></marker></defs>
+<text x="450" y="50" font-size="30" font-weight="bold" text-anchor="middle" fill="#1b4b8f">✉️ cURL = Gửi thư hỏi máy chủ</text>
+<text x="450" y="82" font-size="18" text-anchor="middle" fill="#456">Mình gửi một lá thư (request), máy chủ gửi thư trả lời (response).</text>
+<rect x="30" y="140" width="220" height="170" rx="16" fill="#ffe3ec" stroke="#e0527a" stroke-width="3"/>
+<text x="140" y="200" font-size="60" text-anchor="middle">🧒</text><text x="140" y="240" font-size="20" font-weight="bold" text-anchor="middle">Em (Terminal)</text><text x="140" y="270" font-size="13" text-anchor="middle">gõ lệnh curl</text>
+<rect x="650" y="140" width="220" height="170" rx="16" fill="#d8f5dc" stroke="#27ae60" stroke-width="3"/>
+<text x="760" y="200" font-size="60" text-anchor="middle">🖥️</text><text x="760" y="240" font-size="20" font-weight="bold" text-anchor="middle">Máy chủ</text><text x="760" y="270" font-size="13" text-anchor="middle">Django / Express</text>
+<path d="M255 190 H645" stroke="#1b4b8f" stroke-width="5" marker-end="url(#a)"/>
+<text x="450" y="175" font-size="16" text-anchor="middle" font-weight="bold">✉️ Thư hỏi: GET /get_dealers</text>
+<path d="M645 270 H255" stroke="#27ae60" stroke-width="5" marker-end="url(#b)"/>
+<text x="450" y="305" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f8a4c">📬 Thư trả lời: danh sách đại lý (JSON)</text>
+<rect x="40" y="345" width="820" height="150" rx="12" fill="#1e1e2e"/>
+<text x="60" y="378" font-size="16" fill="#9ece6a" font-family="Consolas, monospace">$ curl http://localhost:8000/djangoapp/get_dealers</text>
+<text x="60" y="405" font-size="15" fill="#c0caf5" font-family="Consolas, monospace">{"status":200,"dealers":[{"id":1,"city":"El Paso","state":"Texas"},</text>
+<text x="60" y="428" font-size="15" fill="#c0caf5" font-family="Consolas, monospace"> {"id":2,"city":"Topeka","state":"Kansas"}, ...]}</text>
+<text x="60" y="465" font-size="14" fill="#e0af68">Cùng cách đó: login, logout, getdealerbyid, getdealersbyState, analyzereview...</text>
+</svg>

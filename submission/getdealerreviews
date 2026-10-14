@@ -1,0 +1,2 @@
+$ curl http://localhost:3030/fetchReviews/dealer/15
+[{"id":1,"name":"Berte Jorge","dealership":15,"review":"Great service!","purchase":true,"purchase_date":"02/16/2021","car_make":"Audi","car_model":"A6","car_year":2023},{"id":2,"name":"Mina Park","dealership":15,"review":"Friendly staff and fair price.","purchase":true,"purchase_date":"11/03/2022","car_make":"Kia","car_model":"Sorento","car_year":2022}]

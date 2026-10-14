@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Segoe UI, Arial, sans-serif"><rect width="900" height="520" fill="#f4f9ff"/>
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto"><path d="M0 0L16 8L0 16z" fill="#1b4b8f"/></marker></defs>
+<text x="450" y="50" font-size="30" font-weight="bold" text-anchor="middle" fill="#1b4b8f">☁️ Đưa app lên mây (Kubernetes &amp; Code Engine)</text>
+<text x="450" y="82" font-size="18" text-anchor="middle" fill="#456">Mở cửa hàng trên mạng để ai cũng vào xem được.</text>
+<rect x="30" y="170" width="150" height="130" rx="14" fill="#d9ecff" stroke="#2f80ed" stroke-width="3"/>
+<text x="105" y="220" font-size="44" text-anchor="middle">📦</text><text x="105" y="255" font-size="16" font-weight="bold" text-anchor="middle">Docker image</text><text x="105" y="278" font-size="13" text-anchor="middle">hộp đã đóng</text>
+<path d="M185 235 H250" stroke="#1b4b8f" stroke-width="5" marker-end="url(#a)"/>
+<text x="217" y="222" font-size="12" text-anchor="middle">tải lên</text>
+<rect x="255" y="170" width="150" height="130" rx="14" fill="#fff8d6" stroke="#e0b400" stroke-width="3"/>
+<text x="330" y="220" font-size="44" text-anchor="middle">🏢</text><text x="330" y="255" font-size="16" font-weight="bold" text-anchor="middle">Kho hộp</text><text x="330" y="278" font-size="13" text-anchor="middle">Container Registry</text>
+<path d="M410 235 H475" stroke="#1b4b8f" stroke-width="5" marker-end="url(#a)"/>
+<text x="442" y="222" font-size="12" text-anchor="middle">lấy ra</text>
+<rect x="480" y="120" width="390" height="230" rx="18" fill="#e6f7ff" stroke="#2f80ed" stroke-width="3" stroke-dasharray="8 5"/>
+<text x="675" y="150" font-size="18" font-weight="bold" text-anchor="middle">☁️ IBM Cloud Code Engine</text>
+<text x="675" y="172" font-size="13" text-anchor="middle" fill="#456">(Kubernetes là cô quản lý)</text>
+<rect x="510" y="190" width="100" height="70" rx="10" fill="#d8f5dc" stroke="#27ae60" stroke-width="2"/><text x="560" y="233" font-size="30" text-anchor="middle">🚗</text>
+<rect x="630" y="190" width="100" height="70" rx="10" fill="#d8f5dc" stroke="#27ae60" stroke-width="2"/><text x="680" y="233" font-size="30" text-anchor="middle">🚗</text>
+<rect x="750" y="190" width="100" height="70" rx="10" fill="#d8f5dc" stroke="#27ae60" stroke-width="2"/><text x="800" y="233" font-size="30" text-anchor="middle">🚗</text>
+<text x="675" y="295" font-size="16" text-anchor="middle">👩‍🏫 Cô giữ đủ 3 hộp chạy.</text>
+<text x="675" y="320" font-size="16" text-anchor="middle">Hộp nào hỏng → cô đổi hộp mới!</text>
+<path d="M675 355 V395" stroke="#1b4b8f" stroke-width="5" marker-end="url(#a)"/>
+<rect x="260" y="400" width="620" height="85" rx="14" fill="#fff" stroke="#27ae60" stroke-width="3"/>
+<text x="570" y="435" font-size="18" font-weight="bold" text-anchor="middle">🌐 Địa chỉ web công khai (deploymentURL)</text>
+<text x="570" y="465" font-size="16" text-anchor="middle" fill="#2f80ed">https://dealership.xxxx.codeengine.appdomain.cloud</text>
+<text x="140" y="445" font-size="50" text-anchor="middle">🧒💻</text>
+<text x="140" y="475" font-size="14" text-anchor="middle">Ai cũng mở được!</text>
+</svg>
